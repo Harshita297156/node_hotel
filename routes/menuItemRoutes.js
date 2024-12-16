@@ -26,8 +26,5 @@ router.get('/', async(req,res)=>{
         res.status(500).json({error:"error in fetching the data"})
     }
 });
-
-
-
-
+//comment added for testing purposes
 module.exports=router;
